@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * main - Entry point of the program
  *
@@ -6,8 +8,6 @@
  *
  * Return: Always 0 (Success)
  */
-#include <stdio.h>
-
 int main(void)
 {
     /**
@@ -15,7 +15,7 @@ int main(void)
      * standard output (the console). It automatically appends
      * a newline character at the end.
      */
-    puts("Programming is like building a multilingual puzzle\n");
+    puts("Programming is like building a multilingual puzzle");
 
     return (0);
 }
